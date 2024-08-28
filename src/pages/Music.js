@@ -11,7 +11,7 @@ const Music = () => {
 
     useEffect(()=>{
       setName(tname || "");
-    })
+    },[tname])
 
     
 
